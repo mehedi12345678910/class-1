@@ -26,10 +26,7 @@
     color: white;
     height: 70px;
    }
-   .navbar{
-    /* position: fixed; */
-    /* z-index: 1000; */
-   }
+  
 nav ul {
     display: flex;
     align-items: center;
@@ -100,10 +97,7 @@ nav ul li a {
     margin: 100px 100px 0px 211px;
 }
  .img-text{
- /* position: relative;
- top: 50%;
- left:110%;
- transform: translate(-0%,-390%); */
+
    position: absolute;
   top: 50%;
   left: 50%;
@@ -196,10 +190,27 @@ display: inline-block;
   margin-top: 41px;
 }
 
+/* /// */
+.date-1{
+    width: 1080px;
+    height: 382px;
+    background: linear-gradient(to bottom, rgb(247, 185, 185) 50%, transparent 100%);
+    margin: -290px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:32px ;
+    padding: 20px;
 
-
-
-
+}
+.date-1 h3{
+    margin: 15px 0;
+}
+.span-1{
+    color: #FF0000;
+}
 
 
 
